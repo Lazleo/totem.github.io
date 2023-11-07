@@ -2,14 +2,13 @@
   /* parallax "viewport" */
   .parallax {
     height: 100vh;
-    /* height: fit-content; */
     background-color: black;
     display: flex;
     overflow-x: hidden;
     overflow-y: auto;
     justify-content: center;
-    /* align-items: center; */
     perspective: 10px;
+    position: relative;
   }
   
   .parallax-layer {
@@ -41,7 +40,8 @@
   }
 
   .title {
-    transform: translateZ(-75px) scale(10) translateY(12rem);
+    transform: translateZ(-75px) scale(10) translateY(50vh);
+
   }
 
   .intro, .outro {
@@ -49,11 +49,11 @@
   }
 
   .parallax-layer.bg-01{
-    top: 30rem;
+    top: 35rem;
     background-image: url(../assets/images/sky-bg.png);
     background-size: cover;
     position: absolute;
-    height: 200vh;
+    height: 250vh;
     width: 100%;
     z-index: -1;
   }
@@ -99,24 +99,26 @@
   }
 
   .parallax > .title {
-    position: sticky;
+    position: fixed;
+    top: 0;
     z-index: 1;
     height: 50vh;
   }
 
   .parallax > .intro {
-    border: 1px solid red;
     top: 0;
+
     position: absolute;
-    height: 10rem;
+    height: 5rem;
     width: 100%;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.75);
+    filter: blur(10px);
     z-index:1;
 }
 
   .parallax > .outro {
-    border: 1px solid red;
-    top: 150rem;
+    top: 320vh;
+ 
     position: absolute;
     height: 30vh;
     width: 100%;
