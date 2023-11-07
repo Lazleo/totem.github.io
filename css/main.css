@@ -1,8 +1,10 @@
 .wrapper {
     height: fit-content;
+    position: relative;
 }
 
 .section-01 {
     height: 300vh;
     background-color: black;
+    color: white;
 }
