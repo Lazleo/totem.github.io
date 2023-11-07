@@ -1,3 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
 .wrapper {
     height: fit-content;
     position: relative;
@@ -6,5 +18,4 @@
 .section-01 {
     height: 300vh;
     background-color: black;
-    color: white;
 }

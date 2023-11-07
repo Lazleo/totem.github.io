@@ -3,7 +3,7 @@
   .parallax {
     height: 99vh;
     background-color: black;
-    border: 5px solid red;
+    /* border: 5px solid red; */
     display: flex;
     overflow-x: hidden;
     overflow-y: auto;
@@ -123,7 +123,6 @@
     position: absolute;
     display: flex;
     justify-content: center;
-    text-justify: ;
     height: 30vh;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.75);
