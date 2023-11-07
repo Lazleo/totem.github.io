@@ -1,0 +1,126 @@
+
+  /* parallax "viewport" */
+  .parallax {
+    height: 100vh;
+    /* height: fit-content; */
+    background-color: black;
+    display: flex;
+    overflow-x: hidden;
+    overflow-y: auto;
+    justify-content: center;
+    /* align-items: center; */
+    perspective: 10px;
+  }
+  
+  .parallax-layer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  
+  .bg-01 {
+    transform: translateZ(-3px) scale(2);
+  }
+  
+  .bg-02 {
+    transform: translateZ(-7.5px) scale(2);
+  }
+  
+  .fg-01 {
+    transform: translateZ(-8px) scale(2);
+  }
+  
+  .fg-02 {
+    transform: translateZ(-10px) scale(2);
+  }
+  
+  .focus {
+    transform: translateZ(-10.5px) scale(2.1);
+  }
+
+  .title {
+    transform: translateZ(-75px) scale(10) translateY(12rem);
+  }
+
+  .intro, .outro {
+    transform: translateZ(-3px) scale(2);
+  }
+
+  .parallax-layer.bg-01{
+    top: 30rem;
+    background-image: url(../assets/images/sky-bg.png);
+    background-size: cover;
+    position: absolute;
+    height: 200vh;
+    width: 100%;
+    z-index: -1;
+  }
+  
+  .parallax-layer.bg-02 {
+    top: 30rem;
+    background-image: url(../assets/images/valley-bg.png);
+    background-size: cover;
+    position: absolute;
+    height: 200vh;
+    width: 100%;
+    z-index: -1;
+  }
+  
+  .parallax-layer.fg-01 {
+    top: 30rem;
+    background-image: url(../assets/images/valley-fg.png);
+    background-size: cover;
+    position: absolute;
+    height: 200vh;
+    width: 100%;
+    z-index: -1;
+  }
+  
+  .parallax-layer.fg-02 {
+    top: 30rem;
+    background-image: url(../assets/images/field-fg.png);
+    background-size: cover;
+    position: absolute;
+    height: 200vh;
+    width: 100%;
+    z-index: -1;
+  }
+
+  .parallax-layer.focus {
+    top: 30rem;
+    background-image: url(../assets/images/totem.png);
+    background-size: cover;
+    position: absolute;
+    height: 200vh;
+    width: 100%;
+    z-index: -1;
+  }
+
+  .parallax > .title {
+    position: sticky;
+    z-index: 1;
+    height: 50vh;
+  }
+
+  .parallax > .intro {
+    border: 1px solid red;
+    top: 0;
+    position: absolute;
+    height: 10rem;
+    width: 100%;
+    background-color: black;
+    z-index:1;
+}
+
+  .parallax > .outro {
+    border: 1px solid red;
+    top: 150rem;
+    position: absolute;
+    height: 30vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.75);
+    filter: blur(10px);
+    z-index:0;
+}

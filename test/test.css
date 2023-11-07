@@ -1,0 +1,94 @@
+/* if you do not remove the margin, you will see a vertical scrollbar on the .parallax div */
+body {
+    margin: 0;
+  }
+  
+  /* parallax "viewport" */
+  .parallax {
+    height: 100vh;
+    display: flex;
+    overflow-x: hidden;
+    overflow-y: auto;
+    justify-content: center;
+    align-items: center;
+    perspective: 10px;
+  }
+  
+  .parallax-layer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  
+  .bg-01 {
+    transform: translateZ(-3px) scale(2);
+  }
+  
+  .bg-02 {
+    transform: translateZ(-7.5px) scale(2);
+  }
+  
+  .fg-01 {
+    transform: translateZ(-8px) scale(2);
+  }
+  
+  .fg-02 {
+    transform: translateZ(-10px) scale(2);
+  }
+  
+  .focus {
+    transform: translateZ(-10.5px) scale(2.1);
+  }
+
+  .parallax-layer.bg-01{
+    top: 3rem;
+    background-image: url(../assets/images/sky-bg.png);
+    background-size: cover;
+    position: absolute;
+    height: 200vh;
+    width: 100%;
+    z-index: -1;
+  }
+  
+  .parallax-layer.bg-02 {
+    /* top: 3rem; */
+    background-image: url(../assets/images/valley-bg.png);
+    background-size: cover;
+    position: absolute;
+    height: 200vh;
+    width: 100%;
+    z-index: -1;
+  }
+  
+  .parallax-layer.fg-01 {
+    /* top: 10rem; */
+    background-image: url(../assets/images/valley-fg.png);
+    background-size: cover;
+    position: absolute;
+    height: 200vh;
+    width: 100%;
+    z-index: -1;
+  }
+  
+  .parallax-layer.fg-02 {
+    /* top: 5rem; */
+    background-image: url(../assets/images/field-fg.png);
+    background-size: cover;
+    position: absolute;
+    height: 200vh;
+    width: 100%;
+    z-index: -1;
+  }
+
+  .parallax-layer.focus{
+
+  
+    background-image: url(../assets/images/totem.png);
+    background-size: cover;
+    position: absolute;
+    height: 200vh;
+    width: 100%;
+    z-index: -1;
+  }
