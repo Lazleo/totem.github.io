@@ -1,8 +1,8 @@
 :root {
     --bg-color: black;
-    --focus-bg-color: linear-gradient(106deg, rgba(255,255,255,1) 0%, rgba(255,211,255,1) 40%, rgba(255,255,255,1) 67%, rgba(243,206,251,1) 91%, rgba(230,155,246,1) 97%);
+    --focus-bg-color: white;
     --primary-color: white;
-    --focus-color: rgb(0, 255, 221);
+    --focus-color: rgb(0, 129, 112);
 }
 
 * {
