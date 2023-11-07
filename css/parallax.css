@@ -41,7 +41,7 @@
   }
 
   .title {
-    transform: translateZ(-75px) scale(10) translateY(22.5vh);
+    transform: translateZ(-50px) scale(10) translateY(5.5vh);
 
   }
 
@@ -50,7 +50,7 @@
   }
 
   .parallax-layer.bg-01{
-    top: 35rem;
+    top: 15rem;
     background-image: url(../assets/images/sky-bg.png);
     background-size: cover;
     position: absolute;
@@ -60,7 +60,7 @@
   }
   
   .parallax-layer.bg-02 {
-    top: 30rem;
+    top: 10rem;
     background-image: url(../assets/images/valley-bg.png);
     background-size: cover;
     position: absolute;
@@ -70,7 +70,7 @@
   }
   
   .parallax-layer.fg-01 {
-    top: 30rem;
+    top: 10rem;
     background-image: url(../assets/images/valley-fg.png);
     background-size: cover;
     position: absolute;
@@ -80,7 +80,7 @@
   }
   
   .parallax-layer.fg-02 {
-    top: 30rem;
+    top: 10rem;
     background-image: url(../assets/images/field-fg.png);
     background-size: cover;
     position: absolute;
@@ -90,7 +90,7 @@
   }
 
   .parallax-layer.focus {
-    top: 30rem;
+    top: 10rem;
     background-image: url(../assets/images/totem.png);
     background-size: cover;
     position: absolute;
@@ -101,24 +101,26 @@
 
   .parallax > .title {
     position: fixed;
-    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     z-index: 2;
     height: 50vh;
   }
 
-  .parallax > .outro > .bg {
+  .parallax > .outro > .outro-bg {
     /* border: 5px solid red; */
     position: absolute;
     top: -10vh;
-    height: 10vh;
+    height: 30vh;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.75);
+    background-color: rgba(0, 0, 0, 0.85);
     filter: blur(25px);
     z-index:0;
 
   }
   .parallax > .outro {
-    top: 250vh;
+    top: 260vh;
     /* border: 5px solid red; */
     position: absolute;
     display: flex;
