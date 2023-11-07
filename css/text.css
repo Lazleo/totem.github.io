@@ -45,3 +45,9 @@ h1 {
 h2 {
     font-size: 1.98rem;
 }
+
+h3 {
+    font-family: alienSerif;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
