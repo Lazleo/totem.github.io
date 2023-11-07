@@ -23,17 +23,14 @@
     src: url(../assets/fonts/Ubuntu-Light.ttf);
 }
 
-
-
-.title {
-    text-shadow: 0 0 10px black;
+a {
+    color: var(--primary-color);
+    transition: 1s ease;
+    text-decoration: none;
 }
 
-.about {
-    font-weight: 400;
-    width: 46%;
-    padding: 0 auto;
-    z-index: 2;
+a:hover {
+    color: var(--focus-color);
 }
 
 span {
@@ -45,11 +42,9 @@ span {
 }
 
 div {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-family: stretchPro;
-    font-weight: 100;
-    line-height: 3.5rem;
-    
+    line-height: 3.5rem; 
 }
 
 h1 {
@@ -68,4 +63,26 @@ h3 {
     font-family: alienSerif;
     font-size: 1.5rem;
     text-transform: uppercase;
+}
+
+h4 {
+    font-family: stretchPro;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+}
+
+
+.title {
+    text-shadow: 0 0 10px black;
+}
+
+.about {
+    font-weight: 400;
+    width: 46%;
+    padding: 0 auto;
+    z-index: 2;
+}
+
+.star {
+    font-size: 5rem;
 }
