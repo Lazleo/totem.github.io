@@ -1,0 +1,38 @@
+
+.porto {
+    position: relative;
+    margin: 50px 0;
+    border-bottom: 1px solid red;
+}
+
+.porto > img {
+    width: 40vw;
+    height: 25vw;
+    object-fit: cover;
+    position: relative;
+}
+
+.porto > .port-img-02 {
+    left: 60vw;
+}
+
+.porto > .port-img-04 {
+    left: 60vw;
+}
+
+.porto > div {
+    width: 550px;
+    z-index: 2;
+    background-color: black;
+    position: absolute;
+    padding: 1rem;
+}
+
+.porto > .port-text {
+    top: 7vw;
+    left: 35vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+

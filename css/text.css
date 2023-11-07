@@ -25,17 +25,18 @@
 }
 
 .about {
-    font-family: ubuntuMono;
-    font-size: 1.25rem;
-    line-height: 1.75rem;
-    color: white;
     font-weight: 400;
     width: 46%;
     padding: 0 auto;
     z-index: 2;
+}
+
+span {
+    font-family: ubuntuMono;
+    color: white;
     text-align: justify;
     text-justify: inter-character;
-
+    line-height: 1.75rem;
 }
 
 h1 {
@@ -48,6 +49,6 @@ h2 {
 
 h3 {
     font-family: alienSerif;
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-transform: uppercase;
 }
