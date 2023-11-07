@@ -18,10 +18,15 @@
     src: url(../assets/fonts/UbuntuMono-Regular.ttf);
 }
 
+@font-face {
+    font-family: ubuntuLight;
+    src: url(../assets/fonts/Ubuntu-Light.ttf);
+}
+
+
+
 .title {
-    font-family: stretchPro;
     text-shadow: 0 0 10px black;
-    text-transform: uppercase;
 }
 
 .about {
@@ -33,17 +38,29 @@
 
 span {
     font-family: ubuntuMono;
-    color: white;
     text-align: justify;
     text-justify: inter-character;
+    font-size: 1rem;
     line-height: 1.75rem;
 }
 
+div {
+    font-size: 1.5rem;
+    font-family: ubuntuLight;
+    font-weight: 100;
+    line-height: 3.5rem;
+    
+}
+
 h1 {
+    font-family: stretchPro;
+    text-transform: uppercase;
     font-size: 5rem; 
 }
 
 h2 {
+    font-family: stretchPro;
+    text-transform: uppercase;
     font-size: 1.98rem;
 }
 

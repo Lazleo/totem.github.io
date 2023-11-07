@@ -16,10 +16,19 @@ body {
 }
 
 .section-01 {
-    height: 300vh;
+    height: 280vh;
     background-color: black;
 }
 
 .portfolio {
+    height: 100%;
+}
+
+.section-02 {
+    height: 80vh;
+    background-color: rgb(97, 57, 57);
+}
+
+.contact {
     height: 100%;
 }
