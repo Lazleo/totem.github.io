@@ -129,3 +129,11 @@
     }
     
 }
+
+@media  screen and (max-height:600px) {
+    .section-02 {
+        background-image: url(../assets/images/full.png);
+        height: 850px;
+        margin-top: 100vh;
+    }
+}
