@@ -43,6 +43,11 @@
         display: none;
     }
 
+    .parallax-layer > .about {
+        position: relative;
+        left: -10px;
+    }
+
     .section-01 {
         height: 220vh;
     }
@@ -55,18 +60,21 @@
     .porto > .port-text {
         top: 0;
         left: 0;
-        width: 400px;
+        width: 100%;
         z-index: 2;
         background-color: black;
         position: relative;
         padding: 1rem;
         display: flex;
         flex-direction: row;
+        margin: 0 22px;
     }
 
     .porto > img {
-        width: 100%;
+        width: 110%;
         height: 60vw;
+        position: relative;
+        margin: 0 auto;
     }
 
     .porto > .port-img-02, .porto > .port-img-04 {
