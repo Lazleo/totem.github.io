@@ -1,4 +1,4 @@
-@media  screen and (max-width:1000px) {
+@media  screen and (max-width:450px) {
     
     h1 {
         font-size: 1.5rem;
@@ -43,6 +43,10 @@
         display: none;
     }
 
+    .section-01 {
+        height: 220vh;
+    }
+
     .porto {
         display: block;
         width: 400px;
@@ -70,6 +74,45 @@
         right: 0;
         margin: 20px 0;
         object-fit: cover;
+    }
+
+    .section-02 {
+        background-image: url(../assets/images/full.png);
+        height: 850px;
+        background-size: cover;
+        text-shadow: 0 0 10px black;
+    }
+
+    .contact {
+        background-color: rgba(0, 0, 0, 0.5);
+        backdrop-filter: blur(2.5px);
+    }
+
+    .contact > div {
+        text-align: center;
+    }
+
+    .contact > a > img {
+        height: 15vw;
+    }
+
+    .footer {
+        height: 350px;
+    }
+
+    .nav {
+        display: flex;
+        flex-direction: column;
+        margin-top: 60px;
+    }
+
+    .nav > div > a > h4 {
+        font-size: 2.5rem;
+    }
+
+    .star {
+        font-size: 4.5rem;
+        color: var(--bg-color);
     }
     
 }
